@@ -1,0 +1,154 @@
+$lineColer:#000000;
+$secondlinecoler:#fff;
+$subTitlecolor:#A00404;
+$secondSubTitlecolor:#fff;
+$bgColor:#415165;
+body{
+    line-height: 1.5;
+    font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+img{
+    vertical-align: middle;
+}
+span{
+    display: inline-block;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.innerContainer{
+    width: 996px;
+    margin: 0 auto;
+}
+.header{
+    padding: 40px 0 22px 0;
+    border-bottom: 2px solid $lineColer;
+    .myName{
+        font-size: 80px;
+        line-height: 95px;
+    }
+}
+.photoArea{
+    padding: 48px 0;
+}
+.profile{
+    padding-bottom: 64px;
+}
+.eduction{
+    padding-bottom: 64px;
+}
+.skill{
+    padding: 24px 0 40px 0;
+}
+.work{
+    padding: 64px 0 80px 0;
+    &List{
+        padding-left: 24px;
+        margin-left: 24px;
+        border-left: 1px solid #96A9C4;
+        font-weight: 300;
+    }
+    .logo,.tree{
+        width: 100px;
+        height: 100px;
+    }
+}
+.intro{
+    width: 642px;
+    font-size: 20px;
+}
+.skillList{
+    color: $secondSubTitlecolor;
+    width: 248px;
+    margin: 0 auto;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.footer{
+    background-color: $bgColor;
+    padding: 24px 0 40px 0;
+}
+.contactList{
+    .text{
+        color: $secondlinecoler;
+        text-decoration: none;
+        &:hover{
+            color: #000;
+        }
+    }
+}
+.socialLink{
+    &List{
+        display: inline;
+        margin-right: 24px;
+    }
+}
+.border-line{
+    border-bottom: 1px solid $lineColer;
+    margin-bottom: 16px;
+
+}
+.secondBorderline{
+    border-bottom: 1px solid $secondlinecoler;
+    padding: 0 0 7px 0;
+}
+.fontWeight-500{
+    font-weight: 500;
+}
+.fontWeight-600{
+    font-weight: 600;
+}
+.fontWeight-300{
+    font-weight: 300;
+}
+.lineHeight-36{
+    line-height: 36px;
+}
+.lineHeight-30{
+    line-height: 30px;
+}
+.fontSize-4{
+    font-size: 32px;//8px
+}
+.fontSize-3{
+    font-size: 24px;
+}
+.subTitlecolor{
+    color: $subTitlecolor;
+}
+.secondTitlecolor{
+    color: $secondSubTitlecolor;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.mb-5{
+    margin-bottom: 40px;//8px
+}
+.mb-3{
+    margin-bottom: 24px;//8px
+}
+.mb-2{
+    margin-bottom: 16px;//8px
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.pb-7{
+    padding-bottom: 7px;
+}
+.bgColor{
+    background-color: $bgColor;
+}
+.textCenter{
+    text-align: center;
+}
+.SF-Pro-text{
+    font-family: "SF-Pro-Text", "Microsoft JhengHei", sans-serif;
+}
