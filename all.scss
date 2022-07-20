@@ -15,6 +15,9 @@ img{
 span{
     display: inline-block;
 }
+h2 span:last-child{
+    vertical-align: 5px;
+}
 *,*::before,*::after{
     box-sizing: border-box;
 }
