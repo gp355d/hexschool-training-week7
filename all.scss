@@ -25,10 +25,6 @@ h2 span:last-child{
     width: 1200px;
     margin: 0 auto;
 }
-.innerContainer{
-    width: 996px;
-    margin: 0 auto;
-}
 .header{
     padding: 40px 0 22px 0;
     border-bottom: 2px solid $lineColer;
@@ -48,6 +44,7 @@ h2 span:last-child{
 }
 .skill{
     padding: 24px 0 40px 0;
+    text-align: center;
 }
 .work{
     padding: 64px 0 80px 0;
@@ -68,8 +65,8 @@ h2 span:last-child{
 }
 .skillList{
     color: $secondSubTitlecolor;
-    width: 248px;
-    margin: 0 auto;
+    display: inline-block;
+    text-align-last: left;
     padding-left: 24px;
     border-left: 1px solid #96A9C4;
 }
@@ -90,6 +87,11 @@ h2 span:last-child{
     &List{
         display: inline;
         margin-right: 24px;
+    }
+}
+.socialLinkList{
+    a:hover{
+        opacity: 0.5;
     }
 }
 .border-line{
